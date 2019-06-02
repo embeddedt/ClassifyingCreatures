@@ -1,0 +1,210 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-May-2019, 2:49:41 PM
+    Author     : trains
+*/
+
+body, html {
+    margin: 0;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(213, 219, 107);
+}
+
+
+#animal-selector {
+    font-size: 5vmin;
+}
+
+h4 {
+    font-size: 200%;
+}
+#animal-selector label {
+    display: block;
+}
+
+#animal-selector label img {
+    margin-left: 1em;
+}
+
+#button-div {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
+body {
+    display: flex;
+    display: -webkit-flex;
+}
+
+* {
+    font-family: 'Helvetica', 'Arial', sans-serif !important;
+    line-height: 1.1;
+}
+
+.content {
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    font-size: 4vmin;
+    overflow: hidden;
+}
+
+#content {
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+#animal-itself {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    align-self: flex-start;
+    -webkit-align-self: flex-start;
+    line-height: 1;
+}
+
+#sets {
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 20px;
+}
+
+img {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#toolbar {
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media screen and (orientation: portrait) {
+    #toolbar {
+        width: 100%;
+        height: auto;
+    }
+    body {
+        flex-direction: column;
+        -webkit-flex-direction: column;
+    }
+}
+
+#animal-selector .radio-inline {
+    width: 100%;
+}
+
+#animal-selector label::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#animal-selector label input {
+    vertical-align: top;
+}
+
+#animal-selector {
+    text-align: center;
+}
+
+#sets > label {
+    display: block;
+}
+
+#toolbar {
+    font-style: italic;
+    text-align: center;
+}
+
+#animal-selector label img {
+    max-height: 4em;
+    float: right;
+    clear: right;
+}
+
+#classifying {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 150%;
+}
+#animal {
+    max-width: 50vmin;
+    max-height: 50vmin;
+    vertical-align: top;
+    display: block;
+}
+
+#description {
+    vertical-align: top;
+}
+
+
+
+body > div {
+    margin: 5px;
+}
+
+#content {
+    
+}
+
+
+input[type="radio"] {
+    margin-right: 0.2em;
+}
+
+/* For landscape, we want the tool bar stick on the left */
+
+@media screen and (orientation: landscape) {
+  #toolbar {
+    height: 100%;
+    width: 16em;
+    max-width: 16em;
+    flex: 0 0 0;
+    -webkit-flex: 0 0 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    word-wrap: break-word;
+    font-size: 3vw;
+  }
+
+}
+
+#toolbar {
+    font-size: 6vw;
+}
+
+hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+@media screen and (min-width: 800px) {
+    #toolbar {
+        font-size: 20px;
+    }
+    .content {
+        font-size: 25px;
+    }
+}
+
+.ui-widget-overlay {
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 32, 32);
+}
+
+.ui-dialog {
+    max-width: 90%;
+}

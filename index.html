@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+Sea cucumber from https://commons.wikimedia.org/wiki/File:Edible_Sea_Cucumber_(Holothuria_edulis).jpg.
+
+-->
+<html>
+    <head>
+        <title>Classifying Creatures</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="jquery.ui.touch-punch.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="biology.css">
+        <script src="biology.js"></script>
+    </head>
+    <body>
+        <div id="toolbar">
+            CURRENTLY CLASSIFYING
+            <br>
+            <span id="classifying">Kingdom</span>
+        </div>
+        <div id="wrong-dialog" style="display: none;">
+            Sorry, that isn't the correct option.
+            <p>
+            Hint: check for common words between the organism's description and the answers.
+            <p>
+            <center><button onclick='$("#wrong-dialog").dialog("close");'>OK</button></center>
+        </div>
+        <div id="correct-dialog" style="display: none;">
+            That's right!
+            <p>
+            <center><button onclick='$("#correct-dialog").dialog("close");'>OK</button></center>
+        </div>
+        <div id='description-dialog' style='display: none;'>
+            <span id="description" class="description"></span> 
+            <p>
+            <center><button onclick='$("#description-dialog").dialog("close");'>OK</button></center>
+        </div>
+        <div class="content" id="content">
+            
+            <div id="animal-itself">
+                
+                <img id="animal" alt="" src="grizzly-bear-profile.jpg"/>
+                <br>
+                <a href='#' onclick='$("#description-dialog").dialog({ modal: true });'>View the description for this organism.</a>
+            </div>
+            <hr>
+            <div id="sets">
+            <label class="radio-inline" id="option-1"><input type="radio" name="set" value="1"><span id="label-1">test</span></label>
+            <label class="radio-inline" id="option-2"><input type="radio" name="set" value="2"><span id="label-2">test</span></label>
+            <label class="radio-inline" id="option-3" ><input type="radio" name="set" value="3"><span id="label-3">test</span></label>
+            <label class="radio-inline" id="option-4"><input type="radio" name="set" value="4"><span id="label-4">test</span></label>
+            <label class="radio-inline" id="option-5"><input type="radio" name="set" value="5"><span id="label-5">test</span></label>
+            </div>
+            <hr>
+            <div id="button-div">
+                <center><button id="check-button">Check</button><br><a href="#" onclick="goBack();">Want a different organism?</a></center>
+            </div>
+            
+        </div>
+        <div class="content" id="animal-selector">
+            <h4>Classifying Creatures</h4>
+            <b>Choose an organism:</b>
+            <p></p>
+            <div style="display: inline-block; text-align: left;">
+                <label class="radio-inline" id="animal-1"><input type="radio" name="animal" value="0">Bear<img alt="" src="grizzly-bear-profile.jpg"/></label>
+                <label class="radio-inline" id="animal-2"><input type="radio" name="animal" value="1">Orchid<img alt="" src="orchid.jpg"/></label>
+                <label class="radio-inline" id="animal-3"><input type="radio" name="animal" value="2">Sea cucumber<img alt="" src="sea_cucumber.jpg"/></label>
+            </div>
+            <p>
+            <center><button id="select-button">Go!</button></center>
+        </div>
+        
+    </body>
+</html>
