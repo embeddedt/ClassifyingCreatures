@@ -41,110 +41,110 @@ var descriptions = [
 ];
 var options = [
     [
-      "Animalia: Heterotrophs (organisms that ingest others for food). Generally have multiple cells.",
-      "Bacteria: Organisms with a single cell that have no nucleus.",
-      "Fungi: Organisms that absorb nutrients for energy. May have one or more cells.",
-      "Plantae: Autotrophs - organisms that use photosynthesis to make their own food. Usually have multiple cells.",
-      "Protoctista: Any organism that does not fit the above kingdoms."
+      "Animalia: Kingdom for heterotrophs (organisms that ingest others for food). They generally have multiple cells.",
+      "Bacteria: Kingdom for organisms with a single cell that have no nucleus.",
+      "Fungi: Kingdom for organisms that absorb nutrients for energy. They may have one or more cells.",
+      "Plantae: Kingdom for autotrophs - organisms that use photosynthesis to make their own food. They usually have multiple cells.",
+      "Protoctista: Kingdom for any organism that does not fit the other kingdoms."
     ],
     [
       [
-        "Chordata: Animals with a notochord (a rodlike structure) at some stage of development that sometimes develops into a backbone.",
-        "Echinodermata: Animals with five-part symmetry and an internal skeleton made from calcium carbonate.",
-        "Arthropoda: Segmented animals consisting of a head, thorax, and abdomen. Bodies are covered with an exoskeleton.",
-        "Crustacea: Segmented animals with 18 to 20 segments, two pairs of antennae, and compound eyes that are usually on stalks."
+        "Chordata: Phylum for animals with a notochord (a rodlike structure) at some stage of development that sometimes develops into a backbone.",
+        "Echinodermata: Phylum for animals with five-part symmetry and an internal skeleton made from calcium carbonate.",
+        "Arthropoda: Phylum for segmented animals consisting of a head, thorax, and abdomen. Their bodies are covered with an exoskeleton.",
+        "Crustacea: Phylum for segmented animals with 18 to 20 segments, two pairs of antennae, and compound eyes that are usually on stalks."
       ],
       [
-        "Magnoliophyta: Plants that produce flowers and seeds.",
-        "Pinophyta: Cone-bearing plants, mostly trees.",
-        "Lycopodiophyta: Evergreen plants that include club and spike mosses. These plants do not produce flowers.",
-        "Equisetophyta: Plants that have hollow, jointed stems with rough ribs."
+        "Magnoliophyta: Phylum for plants that produce flowers and seeds.",
+        "Pinophyta: Phylum for cone-bearing plants, mostly trees.",
+        "Lycopodiophyta: Phylum for evergreen plants that include club and spike mosses. These plants do not produce flowers.",
+        "Equisetophyta: Phylum for plants that have hollow, jointed stems with rough ribs."
       ]
     ],
     [
       [
-        "Ascidiaceae: Cold-blooded marine animals that have neither a brain nor a skull and live inside a sac.",
-        "Aves: Warm-blooded animals with beaks and light bones that are hollow in areas.",
-        "Mammalia: Warm-blooded animals covered with fur or skin that may grow hair. Females have mammary glands.",
-        "Reptilia: Cold-blooded animals with scaly skin and either short legs or no legs at all."
+        "Ascidiaceae: Class for cold-blooded marine animals that have neither a brain nor a skull and live inside a sac.",
+        "Aves: Class for warm-blooded animals with beaks and light bones that are hollow in areas.",
+        "Mammalia: Class for warm-blooded animals covered with fur or skin that may grow hair. The females have mammary glands.",
+        "Reptilia: Class for cold-blooded animals with scaly skin and either short legs or no legs at all."
       ],
       [
-        "Magnoliopsida: Plants that sprout with two leaves. Veins in leaves have a branching structure (dicots).",
-        "Liliopsida: Plants that sprout with one leaf. Veins in leaves are typically parallel to each other (monocots)."
+        "Magnoliopsida: Class for plants that sprout with two leaves. Veins in their leaves have a branching structure (dicots).",
+        "Liliopsida: Class for plants that sprout with one leaf. Veins in their leaves are typically parallel to each other (monocots)."
       ],
       [
-        "Asteroidea: Echinoderms that are often shaped like a star, though they can be nearly circular in shape.",
-        "Crinoidea: Echinoderms that can have the appearance of a simple bush with a stalk that attaches to the seafloor.",
-        "Echinoidea: Echinoderms with a hard shell covered by spines.",
-        "Holothuroidea: Echinoderms that are shaped like a cylinder and have a mouth at one end and an anus at the other end. Outer surface is soft."
+        "Asteroidea: Class for echinoderms that are often shaped like a star, though they can be nearly circular in shape.",
+        "Crinoidea: Class for echinoderms that can have the appearance of a simple bush with a stalk that attaches to the seafloor.",
+        "Echinoidea: Class for echinoderms with a hard shell covered by spines.",
+        "Holothuroidea: Class for echinoderms that are shaped like a cylinder and have a mouth at one end and an anus at the other end. Their outer surface is soft."
       ]
     ],
     [
       [
-        "Artiodactyla: Two or four toed mammals that are usually found in groups or herds.",
-        "Carnivora: Meat-eating mammals, though some supplement their diet with fruits, plants, and insects.",
-        "Diprotodonts: Mammals in which two of the four digits of their hind legs are fused together up to the base of their claws.",
-        "Primates: Mammals with opposable thumbs and hands that are able to grasp."
+        "Artiodactyla: Order for two or four toed mammals that are usually found in groups or herds.",
+        "Carnivora: Order for meat-eating mammals. Some supplement their diet with fruits, plants, and insects.",
+        "Diprotodonts: Order for mammals in which two of the four digits of their hind legs are fused together up to the base of their claws.",
+        "Primates: Order for mammals with opposable thumbs and hands that are able to grasp."
       ],
       [
-        "Alismatales: Liliopsida plants that live submerged or mostly submerged in freshwater and marine environments. Flowers are pollinated by wind or water.",
-        "Poales: Grass-like Liliopsida plants with green sepals and petals that are bract-like (look like leaves or scales).",
-        "Liliales: Liliopsida plants with flowers that have three sepals and three petals that are so similar that they cannot be distinguished from one another.",
-        "Asparagales: Liliopsida plants with flowers in which the sepals and petals are often distinguishable."
+        "Alismatales: Order for Liliopsida plants that live submerged or mostly submerged in freshwater and marine environments. The flowers are pollinated by wind or water.",
+        "Poales: Order for grass-like Liliopsida plants with green sepals and petals that are bract-like (look like leaves or scales).",
+        "Liliales: Order for Liliopsida plants with flowers that have three sepals and three petals that are so similar that they cannot be distinguished from one another.",
+        "Asparagales: Order for Liliopsida plants with flowers in which the sepals and petals are often distinguishable."
       ],
       [
-        "Apodida: Worm-like sea cucumbers that lack tube feet and have a thin outer covering that is often transparent.",
-        "Aspidochirotida: Sea cucumbers with 15 to 30 short tentacles that are shaped like shields or mops.",
-        "Oendrochirotida: Sea cucumbers with 10 to 30 highly branched tentacles.",
-        "Molpadiida: Sea cucumbers with 15 short, stubby tentacles and no tube feet. Bodies taper toward the anus, forming a tail."
+        "Apodida: Order for worm-like sea cucumbers that lack tube feet and have a thin outer covering that is often transparent.",
+        "Aspidochirotida: Order for sea cucumbers with 15 to 30 short tentacles that are shaped like shields or mops.",
+        "Oendrochirotida: Order for sea cucumbers with 10 to 30 highly branched tentacles.",
+        "Molpadiida: Order for sea cucumbers with 15 short, stubby tentacles and no tube feet. Bodies taper toward the anus, forming a tail."
       ]
     ],
     [
       [
-        "Felidae: Carnivores that have retractable claws and can either purr or roar.",
-        "Mustelidae: Carnivores that typically have long tails. All have especially well-developed anal glands.",
-        "Procyonidae: Small- to medium-sized mammals with short to long tails. Found only from Canada to Argentina.",
-        "Ursidae: Small-to-large mammals with large ears and short tails."
+        "Felidae: Family for carnivores that have retractable claws and can either purr or roar.",
+        "Mustelidae: Family for carnivores that typically have long tails. All of them have especially well-developed anal glands.",
+        "Procyonidae: Family for small to medium sized mammals with short to long tails. They are found only from Canada to Argentina.",
+        "Ursidae: Family for small-to-large mammals with large ears and short tails."
       ],
       [
-        "Alliaceae: Asparagales plants with an onion-like odor, small flowers, and six stamens.",
-        "Agavaceae: Asparagales plants with large flowers and six stamens.",
-        "Orchidaceae: Asparagales plants with small to large flowers and one stamen.",
-        "Iridaceae: Asparagales plants with small to large flowers and three stamens."
+        "Alliaceae: Family for Asparagales plants with an onion-like odor, small flowers, and six stamens.",
+        "Agavaceae: Family for Asparagales plants with large flowers and six stamens.",
+        "Orchidaceae: Family for Asparagales plants with small to large flowers and one stamen.",
+        "Iridaceae: Family for Asparagales plants with small to large flowers and three stamens."
       ],
       [
-        "Cucumariidae: Sea cucumbers with 10 branching tentacles that are used to capture particles from the surrounding water.",
-        "Phyllophoridae: Sea cucumbers with more than 10 branching tentacles. The shorter tentacles are used for cleaning.",
-        "Psolidae: Sea cucumbers covered on the top side by plates made of calcium carbonate.",
-        "Sclerodactylidae: Sea cucumbers with 10 to 20 tentacles and scattered tube feet."
+        "Cucumariidae: Family for sea cucumbers with 10 branching tentacles that are used to capture particles from the surrounding water.",
+        "Phyllophoridae: Family for sea cucumbers with more than 10 branching tentacles. The shorter tentacles are used for cleaning.",
+        "Psolidae: Family for sea cucumbers covered on the top side by plates made of calcium carbonate.",
+        "Sclerodactylidae: Family for sea cucumbers with 10 to 20 tentacles and scattered tube feet."
       ]
     ],
     [
       [
-        "Melursus: Bears with long narrow snouts, which look similar to an anteater's snout. They have small teeth and no incisors.",
-        "Helarctos: Small bears that stand only about 30 inches to the shoulder.",
-        "Ursus: Bears whose fur is typically uniform in color.",
-        "Tremarctos: Large bears with white fur circling or almost circling its eyes. Feeds mostly on fruit."
+        "Melursus: Genus for bears with long narrow snouts, which look similar to an anteater's snout. They have small teeth and no incisors.",
+        "Helarctos: Genus for small bears that stand only about 30 inches to the shoulder.",
+        "Ursus: Genus for bears whose fur is typically uniform in color.",
+        "Tremarctos: Genus for large bears with white fur circling or almost circling their eyes. They feed mostly on fruit."
       ],
       [
-        "Goodyera: Long-stemmed orchids with small flowers. Within each flower's lip is a single patch of 'hair' (papillae).",
-        "Platanthera: Orchids with green, white, or yellow flowers that have a small lobed or fringed lip.",
-        "Liparis: An orchid with one to a few leaves at its base and very small flowers. Each flower has a wide lip.",
-        "Spathoglottis: The flower's lip has a callous-like growth near its base."
+        "Goodyera: Genus for long-stemmed orchids with small flowers. Within each flower's lip is a single patch of 'hair' (papillae).",
+        "Platanthera: Genus for orchids with green, white, or yellow flowers that have a small lobed or fringed lip.",
+        "Liparis: Genus for an orchid with one to a few leaves at its base and very small flowers. Each flower has a wide lip.",
+        "Spathoglottis: Genus for flowers with a lip that has a callous-like growth near its base."
       ],
       [
-        "Pentacta: Sea cucumbers with a flat underside and three distinct rows of tube feet, a firm body wall, and low papillae on the dorsal side.",
-        "Pseudocolochirus: Sea cucumbers with three rows of tube feet on the bottom and large obvious papillae on the top.",
-        "Stolus: Small sea cucumbers with tube feet that are distributed throughout the body.",
-        "Thyone: Sea cucumbers with tube feet scattered equally over the body."
+        "Pentacta: Genus for sea cucumbers with a flat underside and three distinct rows of tube feet, a firm body wall, and low papillae on the dorsal side.",
+        "Pseudocolochirus: Genus for sea cucumbers with three rows of tube feet on the bottom and large obvious papillae on the top.",
+        "Stolus: Genus for small sea cucumbers with tube feet that are distributed throughout the body.",
+        "Thyone: Genus for sea cucumbers with tube feet scattered equally over the body."
       ]
     ],
     [
       [
-        "arctos: Large bear known for its brown coat. Eats mostly vegetation.",
-        "americanus: Medium to large bear known for its typically black or dark brown coat.",
-        "maritimus: Large, aquatic bear adapted to a cold climate.",
-        "ursinus: Small to medium bear with black fur, though sometimes with gray and brown fur mixed in."
+        "arctos: A large bear known for its brown coat. It eats mostly vegetation.",
+        "americanus: A medium to large bear known for its typically black or dark brown coat.",
+        "maritimus: A large, aquatic bear that has adapted to a cold climate.",
+        "ursinus: A small to medium bear with black fur, though sometimes with gray and brown fur mixed in."
       ],
       [
         "hawaiensis: A species of wide-lipped orchid with green flowers that grows only in Hawaii.",
@@ -153,10 +153,10 @@ var options = [
         "vexillifera: A species of wide-lipped orchid found in the Caribbean and Central and South America."
       ],
       [
-        "anceps: Yellow and pink sea cucumbers, with stiff, fleshy skin, low papillae on the body, and prominent papillae near the anus.",
-        "australis: Sea cucumbers with a squarish body that are grey to orange in color.",
-        "crassa: Grey sea cucumbers with a pink underside that are typically found on mud.",
-        "quadrangularis: Grey sea cucumbers with prominent tapering papillae along the corners of their squarish bodies."
+        "anceps: A species of yellow and pink sea cucumbers, with stiff, fleshy skin, low papillae on the body, and prominent papillae near the anus.",
+        "australis: A species of sea cucumbers with a squarish body that are grey to orange in color.",
+        "crassa: A species of grey sea cucumbers with a pink underside that are typically found on mud.",
+        "quadrangularis: A species for grey sea cucumbers with prominent tapering papillae along the corners of their squarish bodies."
       ]
     ]
 ];

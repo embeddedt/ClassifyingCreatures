@@ -51,7 +51,7 @@ body {
     flex: 1 1 auto;
     -webkit-flex: 1 1 auto;
     font-size: 4vmin;
-    overflow: hidden;
+    overflow: auto;
 }
 
 #content {
@@ -166,6 +166,11 @@ input[type="radio"] {
 
 /* For landscape, we want the tool bar stick on the left */
 
+
+#toolbar {
+    font-size: 6vw;
+}
+
 @media screen and (orientation: landscape) {
   #toolbar {
     height: 100%;
@@ -181,9 +186,6 @@ input[type="radio"] {
 
 }
 
-#toolbar {
-    font-size: 6vw;
-}
 
 hr {
     margin-top: 0.5rem;
